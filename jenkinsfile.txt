@@ -1,6 +1,6 @@
 node {
   stage('SCM') {
-    echo "Checking out of source control..."
+    echo "Checking out of source control in GITHUB..."
   }
   
   stage('Build') {
