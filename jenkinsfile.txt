@@ -1,4 +1,8 @@
 node {
+  stage('SCM') {
+    echo "Checking out of source control..."
+  }
+  
   stage('Build') {
     echo "Building..."
   }
